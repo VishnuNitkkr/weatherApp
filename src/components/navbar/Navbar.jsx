@@ -24,7 +24,7 @@ const Navbar = () => {
   useEffect(()=>{
     
     const findNameFunction=async()=>{
-      const response=await axios.get(`http://localhost:8080/api/v1/user-data/userData?email=${userId}`)
+      const response=await axios.get(`https://weather-backend-eight.vercel.app/api/v1/user-data/userData?email=${userId}`)
       
       setDetail(response.data.result)
     }

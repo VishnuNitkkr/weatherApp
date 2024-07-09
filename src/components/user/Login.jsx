@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = async(e) => {
     e.preventDefault();
     try {
-      const response=await axios.post('http://localhost:8080/api/v1/user/login',{email,password,confirmPassword},{
+      const response=await axios.post('https://weather-backend-eight.vercel.app/api/v1/user/login',{email,password,confirmPassword},{
         credentials:true,
         headers:{
           "Content-Type":'application/json',

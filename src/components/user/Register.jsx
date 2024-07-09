@@ -16,7 +16,7 @@ const Register = () => {
     e.preventDefault();
     try {
       
-      const response=await axios.post('http://localhost:8080/api/v1/user/register',{name,email,password,city},{
+      const response=await axios.post('https://weather-backend-eight.vercel.app/api/v1/user/register',{name,email,password,city},{
         credentials:true,
         headers:{
           "Content-Type":'application/json',
