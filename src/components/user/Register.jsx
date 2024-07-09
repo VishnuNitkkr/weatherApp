@@ -20,7 +20,7 @@ const Register = () => {
         credentials:true,
         headers:{
           "Content-Type":'application/json',
-          "Access-Control-Allow-Origin":'http://localhost:8080',
+          "Access-Control-Allow-Origin":'https://weather-backend-eight.vercel.app',
           "Access-Control-Allow-Methods":"GET,POST"
         }
       })
