@@ -86,7 +86,7 @@ const Navbar = () => {
         aria-describedby="user-details-description"
       >
         <Box className="profile-detail">
-          <Typography id="user-details-title" variant="h4" component="h2"
+          <Typography id="user-details-title" variant="" component="h2"
           
           >
 
@@ -99,12 +99,12 @@ const Navbar = () => {
           <Box className='detail'>
           <Box className='arrange'>
           <EmailIcon sx={{m:1}} />
-          <Typography variant="h5" component="h2" >
+          <Typography variant="" component="h4" >
           
             EMAIL:
           </Typography>
           </Box>
-          <Typography variant="h5" component="h2">
+          <Typography variant="h" component="h5">
             {detail?.email}
           </Typography>
           </Box>
@@ -112,12 +112,12 @@ const Navbar = () => {
           <Box className='detail'>
           <Box className='arrange'>
           <MyLocationIcon sx={{m:1}}/>
-          <Typography variant="h5" component="h2">
+          <Typography variant="" component="h4">
           
             CITY:
           </Typography>
           </Box>
-          <Typography variant="h5" component="h2" >
+          <Typography variant="" component="h4" >
             {detail?.city}
           </Typography>
           </Box>
