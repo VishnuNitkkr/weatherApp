@@ -1,0 +1,15 @@
+.mainHeading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  color: #178bb6;
+}
+.weatherInfo{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}

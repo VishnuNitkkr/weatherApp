@@ -1,0 +1,43 @@
+.currentWeatherInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  
+}
+.temp {
+  font-weight: 600 !important;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 40px !important;
+}
+
+.cardMedia {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  max-width: 150px !important;
+}
+.card {
+  min-width:350px !important ;
+  background: rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(7.5px) !important;
+  -webkit-backdrop-filter: blur(7.5px) !important;
+  border-radius: 20px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+.temptype {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -1rem;
+}

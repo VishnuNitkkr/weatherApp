@@ -1,0 +1,10 @@
+.searchBar{
+  margin: 5px auto;
+  padding: 10px;
+  max-width: 400px;
+  color: blueviolet;
+}
+.searchInput{
+  border-radius: 20px !important;
+  color: rgb(185, 185, 6);
+}
